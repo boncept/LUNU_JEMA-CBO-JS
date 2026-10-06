@@ -18,6 +18,6 @@ function siteUrl(): Plugin {
 export default defineConfig({
   plugins: [react(), siteUrl()],
   server: {
-    allowedHosts: ["sb-6cagf25a8lqy.vercel.run"],
+    allowedHosts: ["sb-6cagf25a8lqy.vercel.run", "sb-58isgpfm3hkr.vercel.run"],
   },
 });
